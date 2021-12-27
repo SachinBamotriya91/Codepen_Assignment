@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Code Pencil</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-title">
+        <div class="title-box">
+            <p style="margin-right: 5px;">CodePencil</p>
+        </div>
+        <div class="button-box">
+            <button id="signup">Signup</button>
+            <button id="login">Login</button>
+        </div>
+    </div>
+    <div class="editor">
+        <div class="editor-type">
+            <div class="title">
+                <p>HTML</p>
+            </div>
+            <textarea id="html-code" style="color: white;"></textarea>
+        </div>
+        <div class="editor-type">
+            <div class="title">
+                <p>CSS</p>
+            </div>
+            <textarea id="css-code"></textarea>
+        </div>
+        <div class="editor-type">
+            <div class="title">
+                <p>JAVASCRIPT</p>
+            </div>
+            <textarea id="js-code"></textarea>
+        </div>
+    </div>
+    <br>
+    <div class="result">
+
+        <iframe id="output"></iframe>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
